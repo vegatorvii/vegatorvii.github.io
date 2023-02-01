@@ -7,11 +7,40 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <main>
-            <div class="intro">
-                <h1>VEGATOR</h1>
-                <p>text</p>
-            </div>
-        </main>
+         <nav class="navbar">
+            <!-- LOGO -->
+           <div class="logo">
+            <img src="https://th.bing.com/th/id/R.65e0ba1c08e177957f97c666ef61787d?rik=InjIoFK5ghUbYQ&riu=http%3a%2f%2fclipart-library.com%2fnew_gallery%2f395-3958106_kirby-star-png-star.png&ehk=UmENdeGP1kyS7pZwKsRrTVDh2olOycqnkYrqF6rm898%3d&risl=&pid=ImgRaw&r=0">
+           </div>
+            
+            <!-- NAVIGATION MENU -->
+            
+            <ul class="nav-links">
+            
+            <!-- USING CHECKBOX HACK -->
+            
+            <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+            
+            <!-- NAVIGATION MENUS -->
+            
+            <div class="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li class="gallery">
+            <a href="/">Gallery</a>
+            <!--DROPDOWN MENU-->
+            <ul class="dropdown">
+            <li><a href="/">Dropdown 1 </a></li>
+            <li><a href="/">Dropdown 2</a></li>
+        </ul>
+            </li>
+            <li><a href="/">Pricing</a></li>
+            <li><a href="/">Contact</a></li>
+            
+        </div>  
+        </ul>
+            
+        </nav>
     </body>
 </html>
